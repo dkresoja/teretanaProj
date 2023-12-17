@@ -1,0 +1,749 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  margin: 0px 0px;
+}
+
+.upper-header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+.upper-header .upper-header-info {
+  display: flex;
+
+  align-items: center;
+  text-align: center;
+  padding: 0px 50px;
+
+  max-width: 210px;
+  height: auto;
+}
+.upper-header p {
+  margin-top: 10px;
+  color: white;
+  font-size: 11px;
+  margin: 10px 15px 10px 10px;
+  max-width: 100%;
+  height: auto;
+}
+.upper-header p:hover {
+  color: #ffa107;
+}
+
+.upper-header i {
+  color: #ffa107;
+}
+.upper-header .social-icons {
+  margin-right: 50px;
+  width: 300px;
+  display: flex;
+}
+
+.upper-header .social-icons i {
+  color: white;
+
+  height: 50%;
+  margin-right: 25px;
+  max-width: 100%;
+}
+.card-overlay {
+  background-color: black;
+}
+.hero-image {
+  background-image: url(./slike/alexander-redl-qo1pyCD02t4-unsplash.jpg);
+  background-size: cover;
+  background-color: black;
+  opacity: 100%;
+  height: 550px;
+}
+
+.upper-header .social-icons i:hover {
+  transform: scale(136%);
+}
+.hero-image .nav-bar {
+  position: relative;
+  width: 100%;
+  height: auto;
+  opacity: 100%;
+}
+.hero-image .nav-bar ul {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  list-style-type: none;
+  float: right;
+}
+.hero-image .nav-bar ul li {
+  background-color: #ffa107;
+  text-align: center;
+}
+.hero-image .nav-bar ul li:first-child {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 0px 0px 0px 15px;
+}
+.hero-image .nav-bar ul li:hover {
+  border-right: 1px solid #ffa107;
+  background-color: black;
+  transition: 0.3s ease;
+}
+.hero-image .nav-bar ul a {
+  color: white;
+  padding: 0px 10px;
+  text-decoration: none;
+  font-size: 3vh;
+
+  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+.card-holder {
+  background-color: #363636;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card {
+  margin: 5px 15px;
+  width: 20%;
+  height: 300px;
+  text-align: center;
+}
+
+.card-holder .card img {
+  padding: 40px 0px 10px 0px;
+  width: 100%;
+  height: 60%;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.card-holder .card p {
+  font-size: 20px;
+  background-color: #ffa107;
+  border-radius: 20px;
+  font-weight: bold;
+}
+.location-holder {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  height: 500px;
+  background-color: #1c1c1c;
+}
+.location-info {
+  width: 30%;
+  text-align: center;
+  border: 1px solid #ffa107;
+  padding: 14px 20px;
+  animation-name: radius;
+  animation-duration: 2s;
+  animation-direction: alternate-reverse;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+.location-info i {
+  color: white;
+  font-size: 25px;
+}
+@keyframes radius {
+  from {
+    border-radius: 35px;
+  }
+  to {
+    border-radius: 50px;
+  }
+}
+.location-holder iframe {
+  width: 50%;
+  height: 95%;
+  padding: 25px 0px;
+}
+.location-holder .location-info p {
+  color: white;
+}
+.location-holder .location-info h1 {
+  color: white;
+  padding: 0px;
+  margin: 5px;
+  font-weight: bold;
+  border-bottom: 1px solid #ffa107;
+  border-radius: 15px;
+  transition: ease-in 0.3s;
+}
+
+.benefits-holder {
+  background-color: #363636;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  background-position: center;
+}
+.benefits-holder .benefit i {
+  font-size: 80px;
+  color: #ffa107;
+}
+
+.benefits-holder .benefit {
+  width: 100%;
+  padding: 20px;
+  margin-top: 10px;
+  text-align: center;
+  height: auto;
+}
+
+.benefits-holder .benefit h1 {
+  color: #ffa107;
+  font-size: 30px;
+  padding-top: 15px;
+  text-decoration: underline;
+}
+.benefits-holder .benefit p {
+  color: #d48402;
+}
+.cestitka-holder {
+  height: 800px;
+  width: 100%;
+}
+.cestitka-holder img {
+  height: 100%;
+}
+.cestitka-holder i {
+  position: relative;
+  color: #ffa107;
+  font-size: 50px;
+  animation: duration timing-function delay iteration-count direction fill-mode;
+  animation-name: promenaBoja;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+h1 {
+  color: white;
+  text-align: center;
+  margin-top: 50px 0px 0px 0px;
+}
+.treneri-card-holder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 800px;
+}
+
+.treneri-card {
+  margin: 10px;
+  border: 1px solid black;
+  height: auto;
+  width: 400px;
+  text-align: center;
+  background-color: black;
+}
+.treneri-card:hover {
+  background-color: white;
+  transition: 0.3s linear;
+  color: black;
+  animation-name: boje;
+  animation-iteration-count: 1;
+  animation-duration: 2s;
+}
+.treneri-card img:hover {
+  animation-name: zoom;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  animation-direction: initial;
+  border: 1px solid #ffa107;
+}
+
+.treneri-card img {
+  height: 70%;
+  width: 100%;
+}
+.treneri-card-holder .treneri-card p {
+  font-size: 30px;
+  color: #ffa107;
+}
+.treneri-card-holder .treneri-card p:hover {
+  color: black;
+  animation-name: boje;
+}
+.treneri-card-holder .treneri-card p:last-child {
+  font-size: 15px;
+}
+
+body {
+  width: 100%;
+}
+
+.hero-image-kontakt {
+  background-image: url(./slike/9aBGDDT.jpg);
+  background-size: cover;
+  background-color: black;
+  opacity: 70%;
+  height: 950px;
+}
+.hero-image-kontakt .nav-bar {
+  position: relative;
+  width: 100%;
+  opacity: 100%;
+}
+.hero-image-kontakt .nav-bar ul {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  list-style-type: none;
+  float: right;
+}
+.hero-image-kontakt .nav-bar ul li {
+  background-color: #ffa107;
+  text-align: center;
+}
+.hero-image-kontakt .nav-bar ul li:first-child {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 0px 0px 0px 15px;
+}
+.hero-image-kontakt .nav-bar ul li:hover {
+  border-right: 1px solid #ffa107;
+  background-color: black;
+  transition: 0.3s ease;
+}
+.hero-image-kontakt .nav-bar ul a {
+  color: white;
+  padding: 0px 10px;
+  text-decoration: none;
+  font-size: 3vh;
+
+  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+.contact-form .input-form .input-field p {
+  color: white;
+}
+.hero-image-kontakt .contact-form p {
+  color: white;
+}
+.hero-image-kontakt {
+  display: block;
+
+  text-align: center;
+}
+.hero-image-kontakt .contact-form {
+  display: block;
+  margin: auto;
+  text-align: center;
+  margin-top: 70px;
+  border: 10px solid #ffa107;
+  width: 400px;
+  padding: 30px;
+  height: auto;
+  border-radius: 50px;
+}
+
+.hero-image-kontakt .contact-form .input-field input {
+  border-radius: 20px;
+  text-align: center;
+}
+.hero-image-kontakt .contact-form .input-field textarea {
+  width: 300px;
+  height: 250px;
+}
+@media only screen and (max-width: 1024px) {
+  .nav-bar-only li {
+    margin: 0px;
+    padding: 0px;
+  }
+  .nav-bar-only a {
+    font-size: 10px;
+    padding: 2px;
+  }
+  .hero-image .nav-bar ul a {
+    font-size: 3vh;
+  }
+
+  .hero-image .nav-bar li {
+    margin: 0px;
+    padding: 0px;
+  }
+  .card-holder {
+    width: 100%;
+    height: auto;
+    padding: 20px 0px 0px 0px;
+  }
+  .card-holder .card {
+    width: 40%;
+    margin: 15px;
+    height: 270px;
+
+    padding: 0px;
+  }
+  .card-holder .card img {
+    padding: 0px;
+    margin: 0px;
+    height: 25vh;
+  }
+  .card-holder .card p {
+    font-size: 3vh;
+    margin: 5px;
+  }
+  .benefits-holder p {
+    font-size: 11px;
+  }
+
+  .benefits-holder .benefit {
+    width: 20%;
+  }
+  .benefits-holder .benefit h1 {
+    font-size: 2vh;
+  }
+  .benefits-holder .benefit i {
+    font-size: 8vh;
+  }
+  body {
+    width: 1050px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    width: 650px;
+  }
+  .nav-bar-only {
+    padding: 0px;
+    margin: 0px;
+  }
+  .nav-bar-only ul {
+    padding: 0px;
+    margin: 0px;
+  }
+  .nav-bar-only ul li {
+    margin: 0px;
+    padding: 0px 0px;
+  }
+
+  .nav-bar-only ul li a {
+    font-size: 15px;
+    margin: 0px;
+    padding: 0px;
+  }
+  .hero-image {
+    margin-right: 0px;
+  }
+  .hero-image .nav-bar {
+    padding: 0px;
+  }
+  .hero-image .nav-bar li {
+    height: 25px;
+    text-align: center;
+  }
+
+  .hero-image .nav-bar ul a {
+    font-size: 17px;
+  }
+
+  .hero-image-kontakt .nav-bar ul a {
+    font-size: 12px;
+  }
+  .hero-image-kontakt .nav-bar ul li {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 10px 0px;
+    background-color: #ffa107;
+  }
+
+  .hero-image-kontakt .nav-bar ul li:first-child {
+    padding: 10px 0px;
+  }
+
+  .hero-image-kontakt .nav-bar ul {
+    padding-top: 0px;
+  }
+  .hero-image-kontakt .nav-bar {
+    padding: 0px 0px;
+    height: 35px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: block;
+  }
+  .card-holder {
+    width: 100%;
+    height: auto;
+    padding: 20px 0px 0px 0px;
+  }
+  .card-holder .card {
+    width: 44%;
+    margin: auto;
+    height: 270px;
+
+    padding: 0px;
+  }
+  .card-holder .card img {
+    padding: 0px;
+    margin: 0px;
+    height: 25vh;
+  }
+  .card-holder .card p {
+    font-size: 3vh;
+    margin: 5px;
+  }
+
+  .benefits-holder .benefit {
+    width: 25%;
+
+    padding: 10px 5px;
+  }
+  .benefits-holder .benefit:nth-child(2) {
+    height: auto;
+  }
+}
+.footer {
+  height: 100%;
+  background-color: #1c1c1c;
+  display: block;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+.footer img {
+  width: 200px;
+  height: auto;
+}
+.footer i {
+  color: white;
+}
+.footer .nav-bar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer i {
+  font-size: 3vh;
+  padding: 8px;
+  margin: 10px;
+  border-radius: 35px;
+}
+.footer .nav-bar a {
+  color: white;
+  text-decoration: none;
+  padding: 0px 20px;
+}
+.footer .social-icons-footer #instagram {
+  background: #f09433;
+  background: -moz-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+.social-icons-footer #facebook {
+  background: #3b5998;
+}
+
+.social-icons-footer #youtube {
+  background: red;
+}
+
+hero-image#treneri div {
+  background-image: url(./slike/ambitious-studio-rick-barrett-g_bglWB48JA-unsplash.jpg);
+  /*etc*/
+}
+
+.treneri {
+  background-image: url(./slike/treneri/matt-gross-9aCkSl6YcXg-unsplash.jpg);
+  margin: 0px;
+  padding: 0px;
+}
+.back {
+  position: relative;
+  left: 88%;
+
+  width: 100px;
+  text-align: center;
+  padding-top: 20px;
+}
+.back i {
+  font-size: 3.5vh;
+  color: white;
+}
+.back p {
+  color: white;
+}
+.nav-bar-only {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./slike/treneri/matt-gross-9aCkSl6YcXg-unsplash.jpg);
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+.nav-bar-only ul {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  list-style-type: none;
+}
+.nav-bar-only ul li {
+  background-color: #ffa107;
+  border-radius: 20px;
+  text-align: center;
+  padding: 0px 20px;
+  border-right: 1px solid black;
+  margin: 10px;
+}
+
+.nav-bar-only ul li:hover {
+  background-color: black;
+  transition: 0.3s ease;
+  border-radius: 20px;
+  padding: 0px 35px;
+}
+.nav-bar-only ul li:last-child {
+  border-right: 0px;
+}
+.nav-bar-only ul a:hover {
+  color: #ffa107;
+}
+.nav-bar-only ul a {
+  color: white;
+  padding: 0px 10px;
+  text-decoration: none;
+  font-size: 3vh;
+
+  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+.card-holder-galerija {
+  margin-top: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  background-image: url(./slike/treneri/matt-gross-9aCkSl6YcXg-unsplash.jpg);
+}
+
+.card-holder-galerija .card-galerija {
+  display: flex;
+}
+.card-holder-galerija .card-galerija img {
+  width: 550px;
+  padding: 10px 10px;
+  height: auto;
+}
+#galerija {
+  color: white;
+  font-weight: bold;
+  background-image: url(./slike/treneri/matt-gross-9aCkSl6YcXg-unsplash.jpg);
+  margin: 0px;
+  padding: 20px;
+}
+.fa-camera {
+  animation-name: boja;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+@keyframes boja {
+  from {
+    color: white;
+  }
+  to {
+    color: #f09433;
+  }
+}
+.cenovnik-holder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-image: url(./slike/treneri/matt-gross-9aCkSl6YcXg-unsplash.jpg);
+  height: 800px;
+  margin: 0px;
+}
+.cenovnik-holder .cenovnik-card {
+  margin: 30px;
+  padding: 20px;
+  border: 1px solid #ffa107;
+  border-radius: 30px;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+}
+.cenovnik-holder .cenovnik-card p {
+  color: white;
+  margin: 25px;
+  font-size: 25px;
+}
+.cenovnik-card .cenovnik-info p:first-child {
+  font-size: 35px;
+}
+.cenovnik-holder .cenovnik-card a {
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+  background: #ffa107;
+  border-radius: 20px;
+  padding: 10px;
+}
+.cenovnik-holder .cenovnik-card a:hover {
+  background: black;
+  color: #ffa107;
+}
+.cenovnik-holder .cenovnik-card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ffa107;
+  margin-top: 50px;
+}
+
+.cenovnik-card .cenovnik-info {
+  display: flex;
+  font-size: 10px;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+}

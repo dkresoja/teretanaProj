@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /slike/treneri/
+Sitemap: https://dkresoja.github.io/teretanaProj/sitemap.xml
